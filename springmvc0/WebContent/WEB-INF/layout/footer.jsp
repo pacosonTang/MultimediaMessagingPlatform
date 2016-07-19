@@ -1,0 +1,2 @@
+<hr />
+Copyright &copy; AsiaInfo
