@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+    <!-- Main plugin class  这里是最重要滴，就是你的插件的全路径-->
+    <class>com.myplugin.PluginDemo</class>
+ 
+    <!-- Plugin meta-data -->
+    <name>plugindemo</name>
+    <description>This is the my plugindemo.</description>
+    <author>pacoson</author>
+ 
+    <version>1.0</version>
+    <date>29/07/2016</date>    
+    <minServerVersion>4.0.2</minServerVersion>
+    <licenseType>gpl</licenseType>
+ 
+    <adminconsole>
+    	<tab id="tab-server">
+            <sidebar id="sidebar-server-settings">
+                <item id="plugindemo-service" name="my plugin demo" url="plugindemo-service.jsp"
+                     description="plugindemo-service plugin." />
+            </sidebar>
+        </tab>    
+    </adminconsole>
+</plugin>
